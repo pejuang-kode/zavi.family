@@ -1,6 +1,6 @@
 # Zavi Family
 
-This is an monorepo containing all applications under zavi.family domain, built using Turborepo.
+This is a monorepo containing all applications under zavi.family domain, built using Turborepo.
 
 ## What's inside?
 
@@ -8,7 +8,7 @@ This Turborepo includes the following packages/apps:
 
 ### Apps and Packages
 
-- `homeschooling`: a [Remix](https://remix.run/) app
+- `homeschooling`: a [Remix](https://remix.run/) app for tracking homeschooling activities and viewing the reports
 - `ui`: a React component library shared by all applications under the `apps` directory, eventually will be populated by [shadcn/ui](https://ui.shadcn.com/) components
 - `eslint-config-custom`: `eslint` configurations (includes `eslint-config-prettier`)
 - `tsconfig`: `tsconfig.json`s used throughout the monorepo
@@ -22,6 +22,16 @@ This Turborepo has some additional tools already setup for you:
 - [TypeScript](https://www.typescriptlang.org/) for static type checking
 - [ESLint](https://eslint.org/) for code linting
 - [Prettier](https://prettier.io) for code formatting
+
+### Prerequisites
+
+This repository uses `pnpm` package manager, so ensure that you have it installen in your system.
+
+After cloning the repository, ensure that you install all dependencies by running this command:
+
+```shell
+pnpm i
+```
 
 ### Build
 
