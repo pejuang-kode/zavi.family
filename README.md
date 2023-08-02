@@ -9,7 +9,7 @@ This Turborepo includes the following packages/apps:
 ### Apps and Packages
 
 - `homeschooling`: a [Remix](https://remix.run/) app
-- `ui`: a stub React component library shared by both all applications under the `apps` directory
+- `ui`: a React component library shared by all applications under the `apps` directory, eventually will be populated by [shadcn/ui](https://ui.shadcn.com/) components
 - `eslint-config-custom`: `eslint` configurations (includes `eslint-config-prettier`)
 - `tsconfig`: `tsconfig.json`s used throughout the monorepo
 
