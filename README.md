@@ -8,12 +8,12 @@ This Turborepo includes the following packages/apps:
 
 ### Apps and Packages
 
-- `docs`: a [Next.js](https://nextjs.org/) app for documenting the technologies used in this monorepo
-- `homeschool`: a [Next.js](https://nextjs.org/) app for tracking homeschooling activities and viewing the reports
+- `docs`: a [Next.js](https://nextjs.org/) app for documenting the technologies used in this monorepo. It will be built based on [Tailwind UI's Syntax documentation template](https://tailwindui.com/templates/syntax).
+- `homeschool`: a [Next.js](https://nextjs.org/) app for tracking homeschooling activities and viewing the reports.
   It will be my first experiment building Static Apps using React Server Components in Next.js.
-- `homeschooling`: a [Remix](https://remix.run/) app for tracking homeschooling activities and viewing the reports
-  It will be an alternative implementation if the `homeschool` Next.js app doesn't perform as well as promised
-- `ui`: a React component library shared by all applications under the `apps` directory, eventually will be populated by [shadcn/ui](https://ui.shadcn.com/) components
+- `homeschooling`: a [Remix](https://remix.run/) app for tracking homeschooling activities and viewing the reports.
+  It will be an alternative implementation if the `homeschool` Next.js app doesn't perform as well as promised.
+- `ui`: a React component library shared by all applications under the `apps` directory, eventually will be populated by [shadcn/ui](https://ui.shadcn.com/) components.
 - `eslint-config-custom`: `eslint` configurations (includes `eslint-config-prettier`)
 - `tsconfig`: `tsconfig.json`s used throughout the monorepo
 
