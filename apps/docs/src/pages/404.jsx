@@ -5,7 +5,7 @@ export default function NotFound() {
   return (
     <>
       <Head>
-        <title>Page not found - CacheAdvance</title>
+        <title>Page not found - Zavi Family</title>
       </Head>
       <div className="flex h-full flex-col items-center justify-center text-center">
         <p className="font-display text-sm font-medium text-slate-900 dark:text-white">
