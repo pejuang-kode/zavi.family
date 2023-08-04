@@ -56,7 +56,7 @@ export function Hero() {
                 Push the boundaries of reusability.
               </p>
               <p className="mt-3 text-2xl tracking-tight text-slate-400">
-                Extract every reusable module into separate packages to encourage reusability, enhance maintainability, and improve  in the long run.
+                Extract every reusable module into separate packages to encourage reusability, enhance maintainability, and improve development speed in the long run.
               </p>
               <div className="mt-8 flex gap-4 md:justify-center lg:justify-start">
                 <Button href="/">Get started</Button>
