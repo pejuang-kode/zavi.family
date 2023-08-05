@@ -53,10 +53,10 @@ export function Hero() {
             />
             <div className="relative">
               <p className="inline bg-gradient-to-r from-indigo-200 via-sky-400 to-indigo-200 bg-clip-text font-display text-5xl tracking-tight text-transparent">
-                Push the boundaries of reusability.
+                Push the boundaries.
               </p>
               <p className="mt-3 text-2xl tracking-tight text-slate-400">
-                Extract every reusable module into separate packages to encourage reusability, enhance maintainability, and improve development speed in the long run.
+                Extract reusable modules into well-contained packages for long-term agility.
               </p>
               <div className="mt-8 flex gap-4 md:justify-center lg:justify-start">
                 <Button href="/">Get started</Button>
