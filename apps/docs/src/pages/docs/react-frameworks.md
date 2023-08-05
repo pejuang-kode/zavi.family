@@ -15,7 +15,7 @@ I started feeling that I had pushed Remix too far in the wrong direction. Trying
 
 Later on, [Prisma started supporting the Deno runtime](https://github.com/senar-ai/web/issues/30#issuecomment-1295548850). However, I have lost my momentum and interest in pushing it further because I already had [beta.senar.ai](https://beta.senar.ai) running on the side.
 
-### Remix Streaming Exploration
+### Remix Streaming exploration
 
 I explored how to use Remix streaming in my [Menyongsong Transisi Web](https://zainf.dev/belajar-6) talk. At that time, Next.js' streaming feature was still in beta, while it was already available as a stable version in Remix. Remix had advanced faster than Next.js on this side.
 
@@ -27,13 +27,13 @@ The most straightforward VM provider I could find is [Fly.io](https://fly.io/). 
 
 Yes, [Vercel supports Remix streaming](https://vercel.com/docs/frameworks/remix#streaming) now, but I have lost interest in exploring Remix Streaming further in favour of a bigger unaddressed problem in Remix: [Partial Hydration](https://github.com/remix-run/remix/discussions/680). At least, that's the impression I got from this [Understanding React Server Components](https://vercel.com/blog/understanding-react-server-components) article. But for now, let's set aside all the nuances of what React Server Components could do for partial hydrations. We will get back to it later.
 
-### Epic Stack Short Trial
+### Epic Stack short trial
 
 When I watched [The Epic Stack](https://www.epicweb.dev/epic-stack) talk in Remix Conf 2023, I was intrigued by its idea and principles. Hence I started [this now-archived repository](https://github.com/zainfathoni/zavi.family) using it. However, when I tried running the project locally, I bumped into specific technical issues. It's not entirely ready yet; we cannot simply hope it works out of the box. For now, I will be using it as a reference implementation.
 
 It got me thinking. Since I have also built many web apps in the past five years, as I shared in my [Navigating The Web in A World Full of Constraints](https://zainf.dev/web-constraints-recording) talk, I would like to explore whether I could build something similar. This is what made me get started with this Zavi Family project. I want something I can reuse reliably whenever I want to create a new project without losing momentum due to decision fatigue.
 
-### Partial Hydration
+### Partial hydration
 
 Let's revisit the [Partial Hydration](https://github.com/remix-run/remix/discussions/680) problems in Remix. Through his [React Server Components and Remix](https://remix.run/blog/react-server-components) article, Ryan, Remix's co-founder, didn't think React Server Components bring much to the table, even with the partial hydration promises.
 
@@ -65,7 +65,7 @@ Especially with all the [Tailwind UI templates](https://tailwindui.com/templates
 
 In this monorepo, I will use either Remix or Next.js, based on the fastest path to value delivery.
 
-### Clean Architecture
+### Clean architecture
 
 When specific patterns emerge, I will extract them into separate packages in the monorepo to allow reusability. I will dig deeper into it in another decision document.
 
