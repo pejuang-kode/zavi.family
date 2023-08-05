@@ -53,10 +53,9 @@ The `good first issue` label informed us about the difficulty level of an issue.
 
 How to find issues with `good first issue` label:
 
-1. The easiest way is to go into the `github.com/<owner>/<repository>/contribute` link. In this case, you can go into
-   [this link](https://github.com/pejuang-kode/zavi.family/contribute).
+1. The easiest way is to go into the `github.com/<owner>/<repository>/contribute` link. In this case, you can go to [this link](https://github.com/pejuang-kode/zavi.family/contribute)](https://github.com/pejuang-kode/zavi.family/contribute).
    That link will list all the issues with the `good first issue` label.
-2. Another way is to head over to the [Issues](https://github.com/pejuang-kode/zavi.family/issues)](https://github.com/pejuang-kode/zavi.family/issues) repository section, then click the Labels section beside Milestones.
+2. Another way is to head to the [Issues](https://github.com/pejuang-kode/zavi.family/issues) repository section and click the Labels section beside Milestones.
    There you can see a lot of labels for the issues in the repository. Then find and click the `good first issue` label.
 
 ## Working on issues
