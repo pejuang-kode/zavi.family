@@ -43,7 +43,11 @@ While taking his opinions with a grain of salts, I tried comparing the Lighthous
 {% figure src="/images/beta-senar-ai-lighthouse.png" alt="Lighthouse scores of beta.senar.ai, a Remix app deployed on Vercel with MySQL database hosted on PlanetScale" caption="Lighthouse scores of beta.senar.ai, a Remix app deployed on Vercel with MySQL database hosted on PlanetScale" /%}
 {% figure src="/images/veri-ferdiansyah-blog-lighthouse.png" alt="Lighthouse scores of Veri Ferdiansyah's blog, a Next.js 13 static web app deployed on Vercel with React Server Components to allow partial hydrations" caption="Lighthouse scores of Veri Ferdiansyah's blog, a Next.js 13 static web app deployed on Vercel with React Server Components to allow partial hydrations" /%}
 
-> I picked Veri Ferdiansyah's blog because he [recently announced it on LinkedIn](https://www.linkedin.com/posts/vferdiansyah_improve-1-everyday-veri-ferdiansyah-activity-7092346558284779520-da2D?utm_source=share&utm_medium=member_desktop) and it got my attention. Go check it out, I think there will be more insightful content on it. 😁
+{% callout title="Next.js 13 with React Server Components example" %}
+I picked Veri Ferdiansyah's blog for the Next.js 13 example because he [recently announced it on LinkedIn](https://www.linkedin.com/posts/vferdiansyah_improve-1-everyday-veri-ferdiansyah-activity-7092346558284779520-da2D?utm_source=share&utm_medium=member_desktop) and it got my attention. Go check it out, I think there will be more insightful content on it. 😁
+
+With that being said, if you have other examples that might demonstrate React Server Components more comprehensively, please do let me know. I will be more than happy to dig them further.
+{% /callout %}
 
 From the screenshots above, you can see that there are no significant differences between them.
 
@@ -53,7 +57,7 @@ The point is, no matter what tech stack you are using, you will probably be fine
 
 The last time I built an app using Next.js was in 2021, when I built [WargaBantuWarga](https://www.wargabantuwarga.com). It was before Remix went open source. Since Remix went open source, I have never given Next.js another try. I think it's probably the time for me to give it another try while pushing its boundaries.
 
-Especially with all the Tailwind UI templates built in Next.js. I'm a big fan of Tailwind UI, I have been using it for building [Kelas Rumah Berbagi](https://kelas.rumahberbagi.com/) and [Senarai](https://senar.ai). And recently, I just spawn this documentation website in less than an hour by utilising [Tailwind UI's Syntax documentation template](https://tailwindui.com/templates/syntax). It felt so good delivering stuffs quickly without the hassle of making decisions and stitching things up! 🎉
+Especially with all the [Tailwind UI templates](https://tailwindui.com/templates) built in Next.js. I'm a big fan of Tailwind UI, I have been using it for building [Kelas Rumah Berbagi](https://kelas.rumahberbagi.com/) and [Senarai](https://senar.ai). And recently, I just spawned this documentation website in less than an hour by utilising [Tailwind UI's Syntax documentation template](https://tailwindui.com/templates/syntax). It felt so good delivering stuffs quickly without the hassle of making decisions and stitching things up! 🎉
 
 ## Decisions
 
