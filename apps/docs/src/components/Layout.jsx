@@ -19,6 +19,12 @@ export const navigation = [
     ],
   },
   {
+    title: 'Decisions',
+    links: [
+      { title: 'React Frameworks', href: '/docs/react-frameworks' },
+    ]
+  },
+  {
     title: 'Contributing',
     links: [
       { title: 'How to contribute', href: '/docs/how-to-contribute' },
