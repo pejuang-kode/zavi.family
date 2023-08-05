@@ -17,7 +17,7 @@ Later on, [Prisma started supporting the Deno runtime](https://github.com/senar-
 
 ### Remix Streaming Exploration
 
-In my [Menyongsong Transisi Web](https://zainf.dev/belajar-6) talk, I explored how to use Remix streaming. At that time, Next.js' streaming feature was still in beta, while it was already available as a stable version in Remx. It seemed that Remix had advanced faster than Next.js on this side.
+In my [Menyongsong Transisi Web](https://zainf.dev/belajar-6) talk, I explored how to use Remix streaming. At that time, Next.js' streaming feature was still in beta, while it was already available as a stable version in Remix. It seemed that Remix had advanced faster than Next.js on this side.
 
 However, Remix's streaming feature also came with caveats. Quoting from their official [Streaming](https://remix.run/docs/en/1.19.2/guides/streaming) documentation,
 
