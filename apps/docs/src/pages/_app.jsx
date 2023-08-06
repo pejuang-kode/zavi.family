@@ -66,6 +66,14 @@ export default function App({ Component, pageProps }) {
       <Head>
         <title>{pageTitle}</title>
         {description && <meta name="description" content={description} />}
+        <meta
+          property="og:image"
+          content="https://docs.zavi.family/qr-code.png"
+        />
+        <meta property="og:image:alt" content="Zavi Family Monorepo" />
+        <meta property="og:image:width" content="400" />
+        <meta property="og:image:height" content="400" />
+        <meta property="og:site_name" content="Zavi Family Monorepo" />
       </Head>
       <Layout
         title={title}
