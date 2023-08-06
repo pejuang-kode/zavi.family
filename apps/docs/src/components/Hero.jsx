@@ -7,6 +7,7 @@ import { Button } from '@/components/Button'
 import { HeroBackground } from '@/components/HeroBackground'
 import blurCyanImage from '@/images/blur-cyan.png'
 import blurIndigoImage from '@/images/blur-indigo.png'
+import qrCode from '@/images/qr-code.png'
 
 const codeLanguage = 'javascript'
 const code = `import { Button, Header } from "ui";
@@ -56,13 +57,25 @@ export function Hero() {
                 Push the boundaries.
               </p>
               <p className="mt-3 text-2xl tracking-tight text-slate-400">
-                Extract reusable modules into well-contained packages for long-term agility.
+                Extract reusable modules into well-contained packages for
+                long-term agility.
               </p>
               <div className="mt-8 flex gap-4 md:justify-center lg:justify-start">
                 <Button href="/">Get started</Button>
-                <Button href="https://github.com/pejuang-kode/zavi.family" variant="secondary">
+                <Button
+                  href="https://github.com/pejuang-kode/zavi.family"
+                  variant="secondary"
+                >
                   View on GitHub
                 </Button>
+              </div>
+              <div className="mt-8 flex md:justify-center lg:justify-start">
+                <Image
+                  src={qrCode}
+                  alt="QR Code to docs.zavi.family"
+                  width={100}
+                  height={100}
+                />
               </div>
             </div>
           </div>
