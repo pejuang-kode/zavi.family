@@ -14,7 +14,7 @@ import { ThemeSelector } from '@/components/ThemeSelector'
 export const navigation = [
   {
     title: 'Introduction',
-    links: [{ title: 'Getting started', href: '/' }],
+    links: [{ title: 'Zavi Family Monorepo', href: '/' }],
   },
   {
     title: 'Decisions',

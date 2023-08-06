@@ -1,7 +1,7 @@
 ---
-title: Getting started
+title: Zavi Family Monorepo
 pageTitle: Zavi Family Monorepo
 description: A monorepo containing all applications under zavi.family domain with reusable components and clean architecture.
 ---
 
-Learn how to get Zavi Family monorepo set up in your local machine. {% .lead %}
+A monorepo containing all applications under zavi.family domain with reusable components and clean architecture. {% .lead %}
