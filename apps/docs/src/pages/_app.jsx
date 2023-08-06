@@ -1,10 +1,10 @@
-import Head from 'next/head'
 import { slugifyWithCounter } from '@sindresorhus/slugify'
+import Head from 'next/head'
 
 import { Layout } from '@/components/Layout'
 
-import 'focus-visible'
 import '@/styles/tailwind.css'
+import 'focus-visible'
 
 function getNodeText(node) {
   let text = ''
@@ -53,7 +53,7 @@ export default function App({ Component, pageProps }) {
 
   let pageTitle =
     pageProps.markdoc?.frontmatter.pageTitle ||
-    `${pageProps.markdoc?.frontmatter.title} - Docs`
+    `${pageProps.markdoc?.frontmatter.title} - Zavi Family Monorepo`
 
   let description = pageProps.markdoc?.frontmatter.description
 
