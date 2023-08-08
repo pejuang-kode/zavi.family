@@ -27,6 +27,7 @@
     "@types/source-map-support": "^0.5.6",
     "eslint": "^8.38.0",
     "eslint-config-custom": "workspace:*",
+    "tailwind-config": "workspace:*",
     "typescript": "^5.0.4"
   },
   "engines": {
