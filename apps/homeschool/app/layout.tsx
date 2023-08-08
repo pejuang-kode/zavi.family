@@ -1,3 +1,5 @@
+import "tailwind-config/global.css";
+
 export default function RootLayout({
   children,
 }: {
